@@ -4,7 +4,7 @@ import Dashboard from "./pages/dashboard";
 import Home from "./pages/home";
 import Admin from "./pages/admin";
 import FacilityManager from "./pages/facilityManager";
-import Advocate from "./pages/advocate";
+// import Advocate from "./pages/advocate";
 import LoginPage from "./pages/loginPage";
 import BookAppointment from "./pages/bookAppointment";
 import SignupPage from "./pages/signUp";
@@ -62,7 +62,7 @@ const App: React.FC = () => {
           <Route index element={<Home />} />
           <Route path="admin" element={<Admin />} />
           <Route path="facilityManager" element={<FacilityManager />} />
-          <Route path="advocate" element={<Advocate />} />
+          {/* <Route path="advocate" element={<Advocate />} /> */}
           <Route path="book-appointment" element={<BookAppointment />} />
           <Route path="contact" element={<Contact />} />
         </Route>

@@ -66,7 +66,7 @@ const Home: React.FC = () => {
             objectFit: "cover",
           }}
         />
-        <Box
+        {/* <Box
           component="img"
           src={Photo3}
           alt="Photo 3"
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
             boxShadow: "0 4px 20px rgba(0,0,0,0.5)",
             objectFit: "cover",
           }}
-        />
+        /> */}
       </Box>
     </Box>
   );

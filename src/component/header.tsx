@@ -13,7 +13,6 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/bg.jpg";
-import { text } from "stream/consumers";
 
 interface HeaderProps {
   onLogout: () => void;
@@ -28,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ onLogout }) => {
     { text: "Home", path: "/" },
     { text: "Admin", path: "/admin" },
     { text: "Facility Manager", path: "/facilityManager" },
-    { text: "Advocate", path: "/advocate" },
+    // { text: "Advocate", path: "/advocate" },
     { text: "Contact", path: "/contact" }
   ];
 
